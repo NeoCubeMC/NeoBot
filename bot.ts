@@ -10,7 +10,7 @@ async function delay(ms: number) {
 import {Message, MessageReaction} from "discord.js";
 
 const server = "555920952236441612"
-const suggestionChannel = "555928349529079829"
+const suggestionChannel = "724651113051324456"
 
 @Discord("+")
 export abstract class NeoBot {
