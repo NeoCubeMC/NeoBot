@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  neobot:
+    build: .
+    secrets:
+      - bot_token
+secrets:
+  bot_token:
+    file: ./bot_token
