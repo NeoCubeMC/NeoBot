@@ -51,6 +51,9 @@ export abstract class NeoBot {
         client: Client, // Client instance injected here,
         guardPayload: any
     ) {
+        if (reaction.message.channel.id != suggestionChannel) {
+            return
+        }
         if (user == client.user) {
             return;
         }
